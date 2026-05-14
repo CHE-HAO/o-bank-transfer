@@ -1,0 +1,15 @@
+分頁邏輯
+page_start: 第幾頁
+page_size: 每頁資料數量
+page_token: 沒什麼用
+確實就像昨天所理解的，不會是「第幾頁前全部查詢」這種奇怪邏輯
+
+緩存邏輯
+儲存在伺服器本地記憶體中，不是使用redis等外部工具
+(推測是使用Spring Boot架構內建的cache)
+
+API Security (Validate)
+可以透過調整applicationContext.xml來開啟驗證設定
+看起來程式是Spring boot架構沒錯
+
+JWT是JSON Web Token
