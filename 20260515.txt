@@ -1,0 +1,17 @@
+create package 3 ways
+1. workbench
+2. IDE or DesignStudio
+3. command line
+
+path to live
+
+可以做health check
+http://localhost:9089/dsf-iris/api/v1.0.0/meta/api/health?verbose=true
+
+列出package
+http://localhost:9089/dsf-iris/api/v1.0.0/meta/dsfpackages
+
+
+SYSTEM.TODAY可以插入日期變數
+也可以自訂變數
+"$(DSF.TODAY|yyyy-mm-dd'T'HH:mm:ss.SSSSZ)"
